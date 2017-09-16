@@ -6,7 +6,7 @@ A simple function to classify email by checking the diagnostic value
 
 ### Usage
 
-```
+```python
 from check_error_codes import classify_by_error_code
 error = classify_by_error_code(diag_code)
 print error
@@ -14,7 +14,7 @@ print error
 
 returns a dictionary with details below if found otherwise empty
 
-```
+```python
 {'code': '550 5.1.1', 'description': 'The mailbox specified in the address does not exist.', 'flag_as': 'bounced'}
 ```
 
